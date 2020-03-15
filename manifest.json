@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Pop Out",
+    "description": "Convert tabs into popup windows and back",
+    "version": "1.0",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "36": "icons/icon36.png",
+        "48": "icons/icon48.png",
+        "72": "icons/icon72.png",
+        "64": "icons/icon64.png",
+        "128": "icons/icon128.png",
+        "256": "icons/icon256.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {},
+    "permissions": [
+        "contextMenus"
+    ]
+}
